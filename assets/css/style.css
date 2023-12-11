@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    color: #f54d0afc !important;
+}
+.bg-clr{
+    background-color: #f54d0afc !important;
+}
+
+.navbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link:hover {
+    color: #f54d0afc !important;
+}
+
+.btn-orange {
+    background-color: #f54d0afc;
+    color: #000 !important;
+}
+
+.btn-orange:hover {
+    background-color: #c24210fc;
+    color: #000 !important;
+}
+
+.heroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bannerContent{
+    position: relative;
+}
+.banner .col {
+    background-color: #222;
+    padding: 0;
+}
+
+.banner img {
+    opacity: .7;
+}
+
+.about img{
+    width: 100%;
+    object-fit: cover;
+}
+.services img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.face img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.figure{
+    width: 100%;
+    max-width: 500px;
+}
+.figure iframe{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner img {
+        height: 500px;
+        object-fit: cover;
+    }
+    .banner h1{
+        font-size: 25px;
+    }
+}
+
+
+/* Custom CSS */
+.custom-table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th,
+.custom-table td {
+    font-weight: 500;
+}
+
+.custom-table thead {
+    background-color: #6c757d;
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom styles for buttons */
+.custom-table .btn {
+    padding: 0.3rem 0.75rem;
+    margin-right: 5px;
+}
