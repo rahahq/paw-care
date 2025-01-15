@@ -1,4 +1,3 @@
-```markdown
 # Paw-Care
 
 Paw-Care is a pet adoption and rescue platform dedicated to connecting animals in need with loving homes. The system allows users to browse available pets, learn about their profiles, and apply for adoptions. It also supports rescue organizations by providing tools for listing animals, managing applications, and spreading awareness. Paw-Care aims to simplify the adoption process and promote responsible pet ownership while giving every animal a chance at a better life.
@@ -18,29 +17,27 @@ Paw-Care is a pet adoption and rescue platform dedicated to connecting animals i
    ```bash
    git clone https://github.com/rahahq/paw-care.git
    cd paw-care
-   ```
+
 
 2. **Set up the database**:
 
    - Create a MySQL database named `petcare`.
    - Import the provided SQL file to set up the necessary tables:
 
-     ```bash
      mysql -u your_username -p petcare < petcare.sql
-     ```
+
 
 3. **Configure the application**:
 
    - Update the `config.php` file with your database credentials:
 
-     ```php
      <?php
-     $dbHost = 'localhost';
-     $dbUsername = 'your_username';
-     $dbPassword = 'your_password';
-     $dbName = 'petcare';
-     ?>
-     ```
+      $dbHost = 'localhost';
+      $dbUsername = 'your_username';
+      $dbPassword = 'your_password';
+      $dbName = 'petcare';
+      ?>
+
 
 4. **Deploy the application**:
 
@@ -63,16 +60,14 @@ We welcome contributions to enhance Paw-Care. Please follow these steps:
 1. Fork the repository.
 2. Create a new branch:
 
-   ```bash
    git checkout -b feature-name
-   ```
+
 
 3. Make your changes and commit them with descriptive messages.
 4. Push to your forked repository:
 
-   ```bash
    git push origin feature-name
-   ```
+
 
 5. Open a pull request detailing your changes.
 
@@ -85,5 +80,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries or support, please contact us at support@paw-care.com.
 
 ```
-
-This `README.md` provides an overview of the Paw-Care project, including its features, installation instructions, usage guidelines, contribution steps, license information, and contact details. Adjust the placeholders (e.g., database credentials, contact email) as necessary to fit your project's specifics. 
